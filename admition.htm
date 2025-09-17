@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ADMISSION</title>
+  <link rel="stylesheet" href="admition.css" />
+</head>
+
+<body class="bg3">
+  <div>
+    <div>
+      <header>
+        <img src="mono.jpg.png" alt="" class="logo1" width="70px" height="60px">
+          <center>
+            <h1 class="name3">THE R.K. INSTITUTE</h1>
+          </center>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <nav>
+          <ul id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="admition.htm">Admission</a></li>
+            <li><a href="institute.html">Fee structure</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+  <div class="wrapper">
+    <main class="main-content">
+  <div class="container">
+    <h2>📘 The RK Institute - Admission Form</h2>
+    <form action="sendmail.php" method="post" enctype="multipart/form-data">
+      
+      <!-- Personal Details -->
+      <div class="section-title">Personal Details</div>
+      <label>Full Name:</label>
+      <input type="text" name="fullname" required>
+
+      <label>Date of Birth:</label>
+      <input type="date" name="dob" required>
+
+      <label>Gender:</label>
+      <select name="gender" required>
+        <option value="">--Select--</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+
+      <label>Nationality:</label>
+      <input type="text" name="nationality" required>
+
+      <label>Aadhar Number:</label>
+      <input type="text" name="aadhar" maxlength="12" required>
+
+      <!-- Contact Details -->
+      <div class="section-title">Contact Details</div>
+      <label>Mobile Number:</label>
+      <input type="tel" name="mobile" required>
+
+      <label>Email ID:</label>
+      <input type="email" name="email" required>
+
+      <label>Address:</label>
+      <textarea name="address" rows="3" required></textarea>
+
+      <!-- Parent/Guardian Details -->
+      <div class="section-title">Parent / Guardian Details</div>
+      <label>Father's Name:</label>
+      <input type="text" name="fathername" required>
+
+      <label>Father's Occupation:</label>
+      <input type="text" name="fatheroccupation">
+
+      <label>Mother's Name:</label>
+      <input type="text" name="mothername" required>
+
+      <label>Guardian Contact Number:</label>
+      <input type="tel" name="guardiancontact">
+
+      <!-- Academic Details -->
+      <div class="section-title">Academic Details</div>
+      <label>Last School/College Attended:</label>
+      <input type="text" name="lastschool">
+
+      <label>Class / Course Applying For:</label>
+      <input type="text" name="course" required>
+
+      <label>Previous Percentage / Grade:</label>
+      <input type="text" name="grade">
+
+      <!-- Documents Upload -->
+      <div class="section-title">Upload Documents</div>
+      <label>Passport Size Photo:</label>
+      <input type="file" name="photo" accept="image/*" required>
+
+      <label>Marksheet:</label>
+      <input type="file" name="marksheet" accept=".pdf,.jpg,.png" required>
+
+      <label>ID Proof:</label>
+      <input type="file" name="idproof" accept=".pdf,.jpg,.png" required>
+
+      <!-- Declaration -->
+      <div class="section-title">Declaration</div>
+      <p>
+        I hereby declare that the information provided above is true to the best of my knowledge.
+      </p>
+      <input type="checkbox" name="declaration" required> I agree
+
+      <button type="submit">Submit Admission Form</button>
+    </form>
+  </div>
+
+
+    </main>
+
+    <!-- Include your footer here -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>THE R.K. INSTITUTE</h3>
+          <p>Empowering students through quality education and personalized mentorship.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/rakesh012345/">📘Facebook</a></li>
+            <li><a href="http://www.youtube.com/@ther.k.institute7325">📺YouTube</a></li>
+            <li><a href="https://www.instagram.com/therkinstitute/">📸Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>📍 1027 Dwarkapuri, 60 Feet Road, Indore (M.P.)</p>
+          <p>📞 +91 9522222024</p>
+          <p>✉️ therkinstitute@gmail.com</p>
+        </div>
+
+        
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 THE R.K. INSTITUTE. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
+    </div>
+  </div>
+
+  <script src="admition.js"></script>
+</body>
+
+</html>
